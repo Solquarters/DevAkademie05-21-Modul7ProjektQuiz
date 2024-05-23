@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Übung</title>
+    <title>Romans Quiz Übung</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
 </head>
-<body>
-    <div>TEST1</div>
+<body onload="renderQuestion()">
+        <nav class="navbar navbar-light bg-light headerClass">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1">Romans Quiz Übung</span>
+            </div>
+          </nav>
+      <div class="motherDiv">
+        <div class="container">
+          <div class="card">
+            <div class="mainContainerImgDiv"><img src="./img/backgroundImg1.jpg"  alt="..." id="mainIMGId">
+              <div class="progress">
+                <div id="progressBarId" class="progress-bar" role="progressbar" style="width:0" ></div>
+                </div>
+            </div>
+
+           
+              
+              <div class="card-body" id="mainDynamicContainerId">
+                <h5 class="card-title">Frage</h5>
+      
+                <div class="card mb-2">
+                  <div >
+                    Antwort
+                  </div>
+                </div>
+                <div class="card mb-2">
+                  <div>
+                    Antwort
+                  </div>
+                </div>
+                <div class="card mb-2">
+                  <div >
+                    Antwort
+                  </div>
+                </div>
+                <div class="card mb-2">
+                  <div >
+                    Antwort
+                  </div>
+                </div>
+
+                <div class="question-footer">
+                  <span><b>1</b> von <b>5</b> Fragen</span>
+                  <button class="btn btn-primary">Nächste Frage</button>
+      
+                </div>
+                
+              </div>
+            </div>
+      
+      </div>
+
+
+      </div>
+
+
+
+   
 </body>
 </html>
